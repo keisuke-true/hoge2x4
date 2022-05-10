@@ -28,7 +28,6 @@
  * LEDの数の設定
  */
 #define RGB_DI_PIN D3
-//#define BACKLIGHT_PIN D2
 #define RGBLIGHT_DEFAULT_HUE 100
 #ifdef RGB_DI_PIN 
   #define RGBLED_NUM 9
