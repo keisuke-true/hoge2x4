@@ -3,27 +3,27 @@
 #define PRODUCT_ID 0x1535
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(
-        RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_VAD,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_HUI,   KC_B,   KC_C,   KC_D
+        KC_5,   KC_6,   KC_7,   KC_8,
+        KC_1,   KC_2,   KC_3,   KC_4,
+        RGB_MOD,  _______,   _______,   _______
         
     ),
     [1] = LAYOUT(
-        RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_VAD,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_HUI,   KC_B,   KC_C,   KC_D
+        KC_5,   KC_6,   KC_7,   KC_8,
+        RGB_MOD,   KC_2,   KC_3,   KC_4,
+        RGB_MOD,  _______,   _______,   _______
         
     ),
     [2] = LAYOUT(
-        RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_VAD,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_HUI,   KC_B,   KC_C,   KC_D
+        KC_5,   KC_6,   KC_7,   KC_8,
+        KC_1,   KC_2,   KC_3,   KC_4,
+        RGB_MOD,  _______,   _______,   _______
         
     ),
     [3] = LAYOUT(
-        RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_VAD,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,   RGB_MODE_RAINBOW,
-        RGB_HUI,   KC_B,   KC_C,   KC_D
+        KC_5,   KC_6,   KC_7,   KC_8,
+        KC_1,   KC_2,   KC_3,   KC_4,
+        RGB_MOD,  _______,   _______,   _______
         
     ),
 };
